@@ -1,0 +1,173 @@
+// https://threadreaderapp.com/thread/1554435629886218240.html
+// @swapnakpanda
+
+👩‍💻 75+ SQL Practice Questions
+
+❍ Oracle
+❍ MySQL
+❍ SQL Server
+❍ PostgreSQL
+❍ SQLite
+
+⇩ 
+Topics covered:
+
+➊ Table
+➋ Constraints
+➀ Primary Key
+➁ Unique
+➂ Not Null
+➃ Default
+➄ Check
+➅ Foreign Key
+➌ Insert, Update, Delete
+➍ Select 
+➊ Table
+
+➀ Create a Table with a few fields by specifying their data types.
+
+➁ Add a field to an existing table.
+
+➂ Modify a field's data type of a table.
+
+➃ Rename a field's name.
+
+➄ Remove a field from a table.
+
+➅ Rename a table's name.
+
+➆ Drop a table. 
+➋ Constraints
+
+➀ Primary Key
+➁ Unique
+➂ Not Null
+➃ Default
+➄ Check
+➅ Foreign Key 
+➋.➀ Primary Key
+
+➤ Create a Table with
+➀ a single field as the primary key
+➁ 2 or, more fields as the primary key
+...
+
+➤ Add a primary key to an existing table
+➂ for a single field
+➃ for 2 or, more fields
+... 
+➋.➁ Unique
+
+➤ Create a Table with
+➀ a single field unique
+➁ 2 or, more fields combining unique
+➂ multiple unique fields
+...
+
+➤ Add a unique constraint to an existing table
+➃ for a single field
+➄ for 2 or, more fields combining
+...
+
+➅ Drop a unique constraint 
+➋.➂ Not Null
+
+➤ Create a Table with
+➀ one NOT NULL field
+➁ multiple NOT NULL fields
+...
+
+➂ Add NOT NULL constraint to an existing field
+➃ Remove NOT NULL constraint from an existing field 
+➋.➃ Default
+
+➤ Create a Table with DEFAULT value(s)
+➀ for one field
+➁ multiple fields
+...
+
+➂ Add a DEFAULT value constraint to an existing field
+➃ Remove DEFAULT value constraint from an existing field 
+➋.➄ Check
+
+➤ Create a Table with CHECK constraint for
+➀ a single field
+➁ 2 or, more fields combining
+➂ multiple separated fields
+...
+
+➤ Add a CHECK constraint to an existing table
+➃ for a single field
+➄ for 2 or, more fields combining
+...
+
+➅ Drop a CHECK constraint 
+➋.➅ Foreign Key
+
+➤ Create a Table with
+➀ a single foreign key field
+➁ 2 or, more fields combining foreign key
+➂ multiple foreign key fields
+...
+
+➤ Add a foreign key constraint to a table
+➃ for a single field
+➄ for 2 or, more fields combining
+...
+
+➅ Drop a foreign key 
+➌ Insert, Update, Delete
+
+➀ Insert a row into a table.
+➁ Insert a row into a table by providing data for a few fields.
+➂ Insert multiple rows at a time into a table.
+➃ Insert into a table by selecting needed data from another table. 
+➄ Update a specific field's data in a table.
+➅ Update a field's data for multiple rows at a time.
+➆ Delete a row from a table.
+➇ Delete multiple rows from a table. 
+➍ Select
+
+➀ Fetch all rows from a table.
+➁ Fetch only specific fields' data from a table.
+➂ Fetch only those rows that match a condition.
+➃ Apply multiple conditions.
+➄ Check if a field's data is NULL.
+➅ Check if a field's data is not NULL. 
+➆ Check if a field's data starts with "NewY"
+➇ Check if a field's data ends with "don"
+➈ Check if a field's data contains "ijin"
+➉ Check if a field's data has "a" at 2nd position
+➀➀ Check if a field's data starts with "B" and, has at least 5 characters. 
+➀➁ Check if a field's data starts with "B" and, ends with "a".
+➀➂ Check if a field's data starts with "a" or, "o".
+➀➃ Check if a field's data doesn't contain "a" or, "o" at the 2nd position.
+➀➄ Check if a field's data ends with any character from "m" to "t". 
+➀➅ Check if a field's data is 1 or, 2 or, 3 or, 4 or, 5.
+➀➆ Check if a field's data is in the range of 10 to 30.
+➀➇ Check if a field's data is not in the range of 10 to 50.
+➀➈ Fetch only distinct data contained in a field.
+20. Fetch only the first 10 rows. 
+➁➀ Fetch rows from 21 to 40.
+➁➁ Find the minimum value of a field.
+➁➂ Find the maximum value of a field.
+➁➃ Find the average value of a field.
+➁➄ Find the sum of all values contained in a field. 
+➁➅ Find the number of rows fetched.
+➁➆ Find the count of distinct data in a field.
+➁➇ Fetch rows in ascending order for a field.
+➁➈ Fetch rows in descending order for a field. 
+🏁 Final Words
+
+⬘ Practice all these questions. Then, try to come up with your own questions by customizing all of these.
+
+⬙ It's an ongoing series. I will share more practice questions on various topics of SQL. Stay tuned.
+
+Happy Practicing. Happy Learning. 
+Hey 👋
+
+I am a Tech Educator and, Mentor from India 🇮🇳
+
+I am sharing Tutorials, Infographics, Cheat Sheets, Practice Questions, Project Ideas and Roadmaps on Web Development, DSA and, Databases.
+
+To never miss anything, Follow Me ✅ 

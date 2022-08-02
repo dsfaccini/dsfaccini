@@ -1,4 +1,6 @@
 <script>
+	// https://www.namecheap.com/domains/registration/results/?domain=dsfaccini
+	// https://nat.org/
 	let today = new Date();
 	let birthdate = new Date(1995, 10, 13);
 	/**
@@ -119,6 +121,7 @@
 		counter-reset: counter-name;
 	}
 	ol li::before {
+		/* https://www.youtube.com/watch?v=xoRbkm8XgfQ */
 		counter-increment: counter-name;
 		content: counter(counter-name);
 		color: var(--ouryellow);
