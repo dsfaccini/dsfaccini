@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @dsfaccini
-- 👀 I’m interested in contributing to cool projects 
-- 🌱 Trying to get better at automated testing and ci
-- 💞️ I’m looking to collaborate on tools that make developer's lives easier
+- 👀 Determined to make a living following my passion
+- 🌱 Currently trying to get better at automated testing and ci
+- 💞️ Interested in contributing to cool projects and tools that make developer's lives easier 
 - 📫 How to reach me tweet me @dasfacc
 
 <!---
