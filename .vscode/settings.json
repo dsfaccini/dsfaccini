@@ -1,0 +1,10 @@
+{
+	"html.format.wrapLineLength": 120,
+	"editor.trimAutoWhitespace": true,
+	"workbench.editor.labelFormat": "medium",
+	"explorer.sortOrder": "filesFirst",
+	"explorer.compactFolders": false,
+	"workbench.tree.indent": 12,
+	"cSpell.words": ["baseapi", "giftshop", "typedefs"],
+	"cSpell.enabled": true
+}
