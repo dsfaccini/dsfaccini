@@ -59,10 +59,8 @@
 				<h2>Experiences</h2>
 				<div class="flex flex-col gap-4 mt-2">
 					<ExperienceCard title="Data engineer" place="atlantis dx" date_range="Mar 2023 - present">
-						<p>
-							atlantis is an agency helping companies embrace digitalization, our clients are mainly
-							but not exclusively B2B companies.
-						</p>
+						<p>atlantis is an agency helping companies embrace digitalization.</p>
+						<p>Our clients are mainly — but not exclusively — B2B companies.</p>
 						<p>My responsibilities at atlantis include:</p>
 						<li>Advising our clients on the implementation of new data architectures</li>
 						<li>Integrating different data sources and designing ETL pipelines</li>

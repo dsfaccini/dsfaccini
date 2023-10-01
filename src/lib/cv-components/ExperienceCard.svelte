@@ -8,7 +8,7 @@
 	<span style="color: grey;" class="font-medium">{title}</span>
 	<span class="flex flex-row justify-between">
 		<strong>{place}</strong>
-		<span>{date_range}</span>
+		<i>{date_range}</i>
 	</span>
 	<slot><!-- optional fallback --></slot>
 </div>
