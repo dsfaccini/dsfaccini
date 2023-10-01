@@ -45,26 +45,10 @@
 	<div>
 		<div class="skills-description bottom-line">
 			<img src={pp} alt="hertz" />
-			<!--
-			<aside
-				class="grid justify-between gap-3 items-center"
-				style="grid-template-columns: 49% 2% 49%"
-			>
-				<div class="skills">
-					<ul>
-						<li>python</li>
-						<li>sql</li>
-						<li>typescript</li>
-						<li>shell</li>
-						<li>docker</li>
-					</ul>
-				</div
-			</aside>
-			-->
 			<section class="description my-auto font-medium">
-				<li>I believe data is key to making good decisions</li>
+				<li>Data is key to making good decisions</li>
 				<li>We won't use data if it's not readily available</li>
-				<li>We should facilitate behaviors we want to promote</li>
+				<li>We should simplify behaviors we want to promote</li>
 				<li style="list-style: none; margin-top: 2px; font-size: 1.1em;">
 					My mission is to facilitate answers to the right questions, using data
 				</li>
