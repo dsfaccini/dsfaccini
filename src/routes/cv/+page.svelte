@@ -1,5 +1,5 @@
 <script lang="ts">
-	import pp from '$lib/cv-components/pp.jpg';
+	import pp from '$lib/cv-components/me-atlantis-30.jpg';
 	import Email from '$lib/icons/Email.svelte';
 	import GeoAlt from '$lib/icons/GeoAlt.svelte';
 	import Linkedin from '$lib/icons/Linkedin.svelte';
@@ -21,9 +21,7 @@
 		<div>
 			<h1 class="text-4xl font-bold">David Sánchez Faccini</h1>
 			<p class="text-xl">Data Engineer</p>
-			<p class="text-sm text-center mt-2 gradient-text">
-				python - sql - typescript - linux - docker - aws
-			</p>
+			<p class="text-sm text-center mt-2 gradient-text">python - sql - linux - docker - aws</p>
 		</div>
 		<ul>
 			<li>
@@ -59,16 +57,22 @@
 				<h2>Experiences</h2>
 				<div class="flex flex-col gap-4 mt-2">
 					<ExperienceCard title="Data engineer" place="atlantis dx" date_range="Mar 2023 - present">
-						<p>atlantis is an agency helping companies embrace digitalization.</p>
-						<p>Our clients are mainly — but not exclusively — B2B companies.</p>
-						<p>My responsibilities at atlantis include:</p>
-						<li>Advising our clients on the implementation of new data architectures</li>
-						<li>Integrating different data sources and designing ETL pipelines</li>
 						<li>
-							Building REST APIs to allow the clients and service providers to interact with their
-							data
+							atlantis is an agency facilitating companies' digitalization efforts. Our clients are
+							mainly B2B companies from the german SME.
 						</li>
-						<li>Monitoring the stability of existing systems</li>
+						<li>
+							In our data & analytics area I train our Azubis and support our clients on their ETL-,
+							data warehouse- and middleware projects.
+						</li>
+						<li>
+							In the company I'm in charge of our own data warehouse and work across departments
+							advising on interdisciplinary projects, specially around APIs and process automation.
+						</li>
+						<li>
+							I also stay on top of the latest LLM developments and integrate them into our sales
+							processes and POCs
+						</li>
 					</ExperienceCard>
 					<ExperienceCard
 						title="Software developer"
@@ -76,7 +80,7 @@
 						date_range="Jun 2022 - Feb 2023"
 					>
 						<p>
-							Brettschneider is a logistic provider. Here I was tasked with automating processes.
+							Brettschneider is a logistics provider. Here I was tasked with automating processes.
 						</p>
 						<p>
 							Our operations were based on MSSQL and our logistics software, I created a python
@@ -96,38 +100,26 @@
 						</li>
 					</ExperienceCard>
 					<Pagebreak />
-					<ExperienceCard title="Tech lead" place="Emprende-SEO" date_range="Feb 2021 - Feb 2023">
-						<p>
-							Emprende-SEO was an enterprise partly owned by me.
-							<br />
-							There I was responsible for:
-						</p>
-						<li>advising our clients on potential technical solutions</li>
-						<li>building applications (like booking systems or APIs)</li>
-						<li>automating processes</li>
-						<li>integrating external APIs</li>
-					</ExperienceCard>
 					<ExperienceCard
 						title="Data analyst"
 						place="Design Bestseller"
 						date_range="Oct 2019 - May 2022"
 					>
+						<p>DBS is an e-commerce company selling designer furniture.</p>
+						<p>My work there was very varied:</p>
+						<li>Automating weekly and monthly reports using our exasol data warehouse</li>
+						<li>
+							Creating new reports in Power BI and engineering potential features to be used as KPIs
+							<div>
+								<li>
+									for instance, displaying our highest impact products on a dashboard to increase
+									average order value
+								</li>
+							</div>
+						</li>
+						<li>Scraping external data sources to improve our customer experience</li>
 						<p>
-							The work was very varied:
-							<li>Automating weekly and monthly reports using our exasol data warehouse</li>
-							<li>
-								Creating new reports and engineering potential features to be used as KPIs
-								<div>
-									<li>
-										for example, a dashboard to display our highest impact products to increase
-										average order value
-									</li>
-								</div>
-							</li>
-							<li>Scraping external data sources to improve our customer experience</li>
-						</p>
-						<p>
-							I built a couple of models that I sadly didn't get to see through to production:
+							Building models:
 							<li>A market basket analysis model to power a potential recommendation engine</li>
 							<li>A customer lifetime value model to better measure our marketing budget</li>
 							<li>
@@ -136,6 +128,14 @@
 							</li>
 						</p>
 					</ExperienceCard>
+					<ExperienceCard title="Tech lead" place="Emprende-SEO" date_range="Feb 2021 - Feb 2023">
+						<p>Emprende-SEO was an enterprise partly owned by me.</p>
+						<p>There I was responsible for:</p>
+						<li>Advising our clients on technical solutions</li>
+						<li>Building applications, such as booking systems or serverless functions</li>
+						<li>Automating processes</li>
+						<li>Integrating external APIs</li>
+					</ExperienceCard>
 					<ExperienceCard
 						title="Working student"
 						place="Institute of ferrous metals at RWTH Aachen"
@@ -143,7 +143,7 @@
 					>
 						<p>I was making simulations of elasticity models of steel.</p>
 						<p>The progress was very slow because getting the data I needed took several weeks.</p>
-						<p>I automated the steps and got the time down to minutes for the process of:</p>
+						<p>I automated the steps — and got the time down to minutes — for the process of:</p>
 						<li>preparing the experimental data to be used in the models</li>
 						<li>evaluating the simulation results</li>
 						<p>
@@ -153,6 +153,35 @@
 						</p>
 					</ExperienceCard>
 				</div>
+			</section>
+			<section class="certificates">
+				<h2>Certificates</h2>
+				<ul>
+					<li>
+						(IBM)
+						<a href="https://www.credly.com/badges/d2cbd3a7-d933-4432-8f30-0faca1444d37/public_url"
+							>Applied Data Science with Python</a
+						>
+					</li>
+					<li>
+						(DataCamp)
+						<a href="https://www.datacamp.com/skill-verification/DL0028270650070">Data Literacy</a>
+					</li>
+					<li>
+						(Coursera)
+						<a
+							href="https://www.coursera.org/account/accomplishments/specialization/certificate/BNLZMBY84NGY"
+							>Biostatistics in Public Health</a
+						>
+					</li>
+					<li>
+						(LinkedIn)
+						<a
+							href="https://www.linkedin.com/learning/certificates/5d16f86c30bb49a96afba7b1b6854be847c388c803ef2289551368004928374b"
+							>Decision Intelligence</a
+						>
+					</li>
+				</ul>
 			</section>
 		</main>
 	</div>
